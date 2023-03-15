@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados pessoais </legend>
+        Nome: <input type="text"class="caixa_larga"> <br> <br>
+        Endereço <input type="text" class="caixa_larga"> <br> <br>
+        Cidade <input type="text"class="caixa_larga"> <br> <br>
+        Estado:
+        <select id="estado" class="estado">
+            <option> São Paulo </option>
+            <option> Paraná </option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend> Dados profissionais</legend>
+        Natureza do Cargo
+        <br> <br>
+        <input type="radio" class="cargo" id="gerencia" name="cargos"> Gerência &nbsp; &nbsp;
+        <input type="radio" class="cargo" id="Financeiro" name="cargos"> Financia &nbsp; &nbsp;
+        <input type="radio" class="cargo" id="Recepção" name="cargos"> Recepção &nbsp; &nbsp;
+        <input type="radio" class="cargo" id="Administrativo" name="cargos"> Administrativo &nbsp; &nbsp;
+        <input type="radio" class="cargo" id="Historia" name="cargos"> Historia &nbsp; &nbsp;
+        <br> <br>
+        Área de interesse
+        <br> <br>
+          <input type="checkbox" class="areas" id="copmutacao">computação &nbsp;
+          <input type="checkbox" class="areas" id="Biologia">Biologia &nbsp;
+          <input type="checkbox" class="areas" id="Meio Ambiente">Meio Ambiente &nbsp;
+          <input type="checkbox" class="areas" id="Engenharia">Engenharia &nbsp;
+          <input type="checkbox" class="areas" id="Historia">Historia &nbsp;
+        <br> <br>
+        Mini curriculo:<textarea class="texto" id="curriculo"></textarea>
+    </fieldset>  
+    <button class="botao">Limpar </button>
+    <button class="botao">Enviar </button>
+
+</body>
+</html>
